@@ -71,6 +71,12 @@ function clearPixels() {
   });
 }
 
+function removeTable() {
+  const getTable = document.getElementById('pixel-board').children;
+  const transforToList = Array.from(getTable);
+  transforToList.forEach(((child) => child.remove()));
+}
+
 function setDimension() {
   const getOkbtn = document.getElementById('generate-board');
   getOkbtn.addEventListener('click', () => {
@@ -87,12 +93,6 @@ function setDimension() {
     removeTable();
     makeTable(setNumberMatriz);
   });
-}
-
-function removeTable() {
-  const getTable = document.getElementById('pixel-board').children;
-  const transforToList = Array.from(getTable);
-  transforToList.forEach(((child) => child.remove()));
 }
 
 function randomColors() {
