@@ -41,7 +41,7 @@
 - Implemente uma paleta de cores usando `javascript`, `css` e `html`.
 
 ---
-
+## Requisitos do projeto
 
 ### 1 - Adicione à página o título "Paleta de Cores".
 
