@@ -1,4 +1,4 @@
-### Projeto Pixels Art (projeto desenvolvido pela Trybe)
+### Projeto Pixels Art
 
 ---
 
